@@ -1,0 +1,26 @@
+{
+  "name": "sk-datatable",
+  "version": "0.0.1",
+  "description": "New stylish datatable extended lib",
+  "main": "index.html",
+  "scripts": {
+    "test": "skdt-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilnkashyap/sk-datatable.git"
+  },
+  "keywords": [
+    "datatable",
+    "table"
+  ],
+  "author": "Sunil Kashyap",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sunilnkashyap/sk-datatable/issues"
+  },
+  "homepage": "https://github.com/sunilnkashyap/sk-datatable#readme",
+  "dependencies": {
+    "datatables.net": "^1.10.19"
+  }
+}
