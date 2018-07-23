@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/sunilnkashyap/sk-datatable#readme",
   "dependencies": {
-    "datatables.net": "^1.10.19"
+    "bootstrap": "^3.3.7",
+    "datatables.net": "^1.10.19",
+    "select2": "^4.0.6-rc.1"
   }
 }

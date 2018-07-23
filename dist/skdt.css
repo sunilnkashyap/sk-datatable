@@ -1,0 +1,214 @@
+.sk-datatable {
+    border:1px #e3e3e3 solid;
+    font-size:12px;
+}
+.skDtFilterBtn .dataTables_length{
+    float: left;
+    margin-right:3px;
+}
+
+.clearFilter {
+    float: right;
+    position: relative;
+    margin-top: -26px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.skdt-filter-input{
+    border-radius:0px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.skDtFilterBtn .dataTables_length select{
+    background: #fff;
+    padding: 7px 2px;
+}
+
+.skDtCustomPagination {
+    text-align: right;
+    margin-top:5px;
+}
+
+.skDtfilterToggle {
+    height:34px;
+}
+.customWell {
+    margin-bottom: -7px;
+    padding: 10px !important;
+    border-radius: 1px;
+}
+
+.dataTables_paginate a {
+    padding:5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dataTables_paginate a:hover {
+    background-color: #fff;
+}
+.dataTables_paginate a.disabled:hover {
+    background-color: #eee;
+}
+.dataTables_paginate a.current {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.dataTables_info {
+    text-align: center;
+}
+
+.cursorPointer{
+    cursor:pointer;
+}
+
+/* Progress Bar */
+.sk-progressfull{
+    width:100%;
+    height:5px;
+}
+.sk-progress {
+    position: relative;
+    height: 5px;
+    display: block;
+    /*width: 100%;*/
+    margin:0px -15px;
+    /*background-color: #acece6;*/
+    /*border-radius: 2px;*/
+    background-clip: padding-box;
+    /*margin: 0.5rem 0 1rem 0;*/
+    overflow: hidden; 
+}
+.sk-progress .determinate {
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    bottom: 0;
+    background-color: #26a69a;
+    transition: width .3s linear; }
+.sk-progress .indeterminate {
+    background-color: #26a69a; }
+.sk-progress .indeterminate:before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+    animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+.sk-progress .indeterminate:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation-delay: 1.15s;
+    animation-delay: 1.15s; 
+}
+.sk-blue,
+.sk-hover-blue:hover {
+    color: #fff!important;
+    background-color: #2196F3!important
+}
+@-webkit-keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%; }
+    60% {
+        left: 100%;
+        right: -90%; }
+    100% {
+        left: 100%;
+        right: -90%; } }
+@keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%; }
+    60% {
+        left: 100%;
+        right: -90%; }
+    100% {
+        left: 100%;
+        right: -90%; } }
+@-webkit-keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%; }
+    60% {
+        left: 107%;
+        right: -8%; }
+    100% {
+        left: 107%;
+        right: -8%; } }
+@keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%; }
+    60% {
+        left: 107%;
+        right: -8%; }
+    100% {
+        left: 107%;
+        right: -8%; } }
+
+@font-face {
+    font-family: 'clip-font';
+    src:url('fonts/clip-font.eot');
+    src:url('fonts/clip-font.eot?#iefix') format('embedded-opentype'),
+        url('fonts/clip-font.woff') format('woff'),
+        url('fonts/clip-font.ttf') format('truetype'),
+        url('fonts/clip-font.svg#clip-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ski-search, .ski-cancel-circle, .ski-filter, .ski-chevron-right, .ski-chevron-left {
+    font-family: 'clip-font';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ski-chevron-right:before {
+    content: "\e162";
+}
+.ski-chevron-left:before {
+    content: "\e163";
+}
+
+.ski-cancel-circle:before {
+    content: "\e0d8";
+}
+
+.ski-search:before {
+    content: "\e07c";
+}
+
+.ski-filter:before {
+    content: "\e08f";
+}
